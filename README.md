@@ -1,3 +1,5 @@
+<p align=center><img src="https://github.com/vdbio/versiondb_samples/blob/5495aa3f54628e3d8f633f1e5bbd68f44ed7f7c8/logo.jpg" width="20%"></p>
+
 # VersionDB Samples
 
 The following dataset is compiled from sample data available on https://versiondb.io/ between September 2025 and January 2026.
