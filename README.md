@@ -2,7 +2,7 @@
 
 # VersionDB Samples
 
-The following dataset is compiled from sample data available on https://versiondb.io/ between September 2025 and January 2026.
+The following datasets are compiled from sample data available on https://versiondb.io/ between September 2025 and January 2026.
 
 ## Overview
 
