@@ -13,7 +13,8 @@ The following dataset is compiled from sample data available on https://versiond
 | `2025_nov.zip` | 144,516 | 427,962 | November 11 – 16, 2025 |
 | `2025_oct.zip` | 50,000 | 192,374 | October 5 – 12, 2025 |
 | `2025_sept.zip` | 50,000 | 263,427 | September 5 – 12, 2025 |
-| **Total** | **364,310** | **1,211,053** | |
+
+Each archive can be found in: https://github.com/vdbio/versiondb_samples/releases
 
 ## Data Format
 
