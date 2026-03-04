@@ -16,6 +16,10 @@ The following datasets are compiled from sample data available on https://versio
 
 Each archive can be found in: https://github.com/vdbio/versiondb_samples/releases
 
+## Statistics
+
+Generated reports and statistics for each archive can be found in the [`stats/`](stats/) directory, organized by crawl period.
+
 ## Data Format
 
 The data is structured as nested JSON. The top-level key is a domain (e.g. `"yadays.it"`), the second-level key is a URL path (e.g. `"/"`), and the value is a snapshot object representing the state of that URL at crawl time.
@@ -28,6 +32,8 @@ The data is structured as nested JSON. The top-level key is a domain (e.g. `"yad
       "httpProtocol": "http/1.1, tls/1.3",
       "httpStatus": 200,
       "ipAddress": "95.174.23.179",
+      "ipASN": "SEEWEB s.r.l.",
+      "ipCountry": "Italy",
       "httpHeaderHash": "4CRXGIK5JWT5Q4DXRPGIKIAWDGROZ3G3",
       "httpHeaderTechnologies": [
         "MySQL",
@@ -71,6 +77,8 @@ The data is structured as nested JSON. The top-level key is a domain (e.g. `"yad
 | `httpProtocol` | `string` | The negotiated HTTP protocol and TLS version. |
 | `httpStatus` | `integer` | HTTP response status code returned by the server. |
 | `ipAddress` | `string` | The resolved IP address of the server that handled the request. |
+| `ipASN` | `string (nullable)` | The autonomous system name associated with the IP address. |
+| `ipCountry` | `string (nullable)` | The country associated with the IP address. |
 | `httpHeaderHash` | `string` | Base32-encoded SHA1 hash of the response headers. |
 | `httpHeaderTechnologies` | `[]string` | Technologies or software identified from response headers. |
 | `httpHeaderUrls` | `[]string` | URLs found in response headers. |
