@@ -16,6 +16,10 @@ The following datasets are compiled from sample data available on https://versio
 
 Each archive can be found in: https://github.com/vdbio/versiondb_samples/releases
 
+## Statistics
+
+Generated reports and statistics for each archive can be found in the [`stats/`](stats/) directory, organized by crawl period.
+
 ## Data Format
 
 The data is structured as nested JSON. The top-level key is a domain (e.g. `"yadays.it"`), the second-level key is a URL path (e.g. `"/"`), and the value is a snapshot object representing the state of that URL at crawl time.
