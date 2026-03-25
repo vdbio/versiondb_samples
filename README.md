@@ -8,6 +8,7 @@ The following datasets are compiled from sample data available on https://versio
 
 | Archive | Unique Domains | Total URLs | Crawl Period |
 |---|---|---|---|
+| `2026_feb.zip` | 55,939 | 162,062 | February 6 – 13, 2026 |
 | `2026_jan.zip` | 52,700 | 136,500 | January 12 – 14, 2026 |
 | `2025_dec.zip` | 67,094 | 190,790 | December 4 – 6, 2025 |
 | `2025_nov.zip` | 144,516 | 427,962 | November 11 – 16, 2025 |
